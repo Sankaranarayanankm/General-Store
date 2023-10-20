@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- form starts here  -->
+  <form class="form" id="form">
+    <!-- input section starts here  -->
+    <div class="input" id="input">
+      <h2 class="input-heading">General Store</h2>
+      <!-- item-name  -->
+      <label for="item-name">Item Name:</label>
+      <input type="text" class="item-name" id="item-name">
+      <!-- description  -->
+      <label for="des">Description:</label>
+      <input type="text" class="des" id="des">
+      <!-- price  -->
+      <label for="price">Price:</label>
+      <input type="text" class="price" id="price">
+      <!-- quantity  -->
+      <label for="qty">Quantity:</label>
+      <input type="text" class="qty" id="qty"><br>
+      <!-- add button  -->
+      <input type="submit" class="submit" id="submit">
+    </div>
+
+    <!-- output section starts here  -->
+    <h2 id="output-heading">Available Items</h2>
+    <ol type="i" class="items" id="items"></ol>
+  </form>
+  <!-- form ends here  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js" integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+</body>
+</html>
